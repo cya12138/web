@@ -15,7 +15,7 @@ import matplotlib.image as mpimg
 
 @st.cache(allow_output_mutation=True)
 def read():
-   data=pd.read_excel('D:\pythonweb\data异常.xlsx')
+   data=pd.read_excel('data异常.xlsx')
    return data
 data=read()
 
