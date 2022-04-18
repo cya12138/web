@@ -136,9 +136,6 @@ def miss_number():
     miss = miss.reset_index()
     fig, ax = plt.subplots(figsize=(16, 10), facecolor='white', dpi=80)
     ax.bar([i + 1 for i in range(14)], miss["miss"], width=0.5)
-    ax.set_xlabel("缺失数量")  # 设置x轴标签
-    ax.set_ylabel("个数")  # 设置y轴标签
-    ax.set_title("缺失值")  # 设置标题
     for i, AMOUNT_NUMBER in enumerate(miss.miss):
         ax.text(i+1, AMOUNT_NUMBER + 0.5, round(AMOUNT_NUMBER, 1), horizontalalignment='center')
         # 添加x坐标对应的label
