@@ -105,7 +105,7 @@ def delivery():
     # )
     # streamlit_echarts.st_pyecharts(c,map=map,height=500)
 
-    imag = mpimg.imread("C:/Users/cyashuai/Desktop/1.png")
+    imag = mpimg.imread("1.png")
     st.image(imag)
 
 
