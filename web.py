@@ -11,7 +11,7 @@ from pyecharts.charts import Map, Bar, Grid
 from pyecharts import options as opts
 import matplotlib.image as mpimg
 
-data=pd.read_excel('D:\pythonweb\data异常.xlsx')
+data=pd.read_excel('data异常.xlsx')
 data['ITEM_PRICE']=data['ITEM_PRICE'].apply(lambda x: x)
 def tranAge(x):
    if 0<=x<100:
