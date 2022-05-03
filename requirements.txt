@@ -15,6 +15,7 @@ cpca==0.5.5
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.7.1
+docopt==0.6.2
 echarts-china-counties-pypkg==0.0.2
 echarts-china-provinces-pypkg==0.0.3
 echarts-countries-pypkg==0.1.6
@@ -63,6 +64,7 @@ pandocfilters==1.4.3
 parso==0.8.1
 pickleshare==0.7.5
 Pillow==8.1.2
+pipreqs==0.4.11
 plotly==5.7.0
 prettytable==3.2.0
 prometheus-client==0.9.0
@@ -82,6 +84,8 @@ pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2021.1
+pytz-deprecation-shim==0.1.0.post0
+pywin32==300
 pywinpty==0.5.7
 pyzmq==22.0.3
 qtconsole==5.0.3
@@ -114,4 +118,5 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 xlrd==1.2.0
+yarg==0.1.9
 zipp==3.8.0
